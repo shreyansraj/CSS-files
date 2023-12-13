@@ -1,0 +1,44 @@
+Grid template: They define the lines & track sizing
+grid-template-rows
+grid-template-columns
+
+Repeat is used to divide all available space
+
+grid-template-rows: Repeat(count, 1fr)
+grid-template-columns: Repeat(count, 1fr)
+
+Grid Gaps: They define the gaps between the lines
+row-gap
+column-gap
+grid-gap: rowGap columnGap
+
+Grid Columns: Defines an item's starting position inside the column
+
+grid-column-start:line number
+grid-column-end: line number
+grid-column: start_col/ end_col
+grid-column: start_col/ span number
+
+Grid Rows: Defines an item's starting and ending position inside the row
+
+grid-row-start: line number;
+grid-row-end: line number;
+
+grid-row: start_row/end_row;
+grid-row: start_row/span number;
+
+Grid properties:
+horizontal shifting
+justify-items (container)
+justify-self(item)
+
+vertical shifting
+align-items (container)
+align-self (item)
+
+for same in horizontal and vertical
+place-items: center;
+place self:center (for individual item)
+
+
+

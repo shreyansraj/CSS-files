@@ -1,0 +1,8 @@
+Media Queries: Help create responsive website
+media features- width, height etc. (of viewport)
+
+@media(width: 400px){
+    div{
+        background-color: red;
+    }
+}
